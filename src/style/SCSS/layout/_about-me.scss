@@ -1,0 +1,49 @@
+.about-me{
+    width: 70%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    min-height: 80vh;
+    h1{
+       color: $thered-color;
+       margin: 1rem 0; 
+       font-size: 1.7rem;
+       span{
+           color: $seconed-color;
+       }
+    }
+    p{
+        font-size: 1.3rem;
+        color: $forth-color;
+        line-height: 1.6rem;
+        margin: 1rem 0;
+        width: 100%;
+    }
+    h2{
+        font-size: 1.3rem;
+        color: $forth-color;
+    }
+    ul {
+        list-style: none;
+        color: $forth-color;
+        margin: 1rem 0;
+        width: fit-content;
+        display: grid;
+        grid-template: 30% 30% 30%/ 1fr 1fr ;
+        row-gap: 0.5rem;
+        column-gap: 3rem;
+        li{
+            position: relative;
+            &::before{
+                content: "▹";
+                color: $seconed-color;
+                margin-right: 0.4rem;
+            }
+        }
+    }
+}
+//------------------------------------------------------------------------------------------------------------------
+@include mobile {
+    .about-me{
+        width: 100%;
+    }
+}

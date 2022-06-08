@@ -1,0 +1,47 @@
+footer{
+    margin-top: 14rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    font-family: 'Grape Nuts', cursive;
+    padding: 2rem 7rem;
+    box-shadow: 0px -5px 40px -15px black;
+    ul{
+        list-style: none;
+        display: flex;
+        font-size: 1.2rem;
+        width: 200px;
+        justify-content: space-evenly;
+        align-items: center;
+        li{
+            a{
+                color: $seconed-color;
+                i{
+                    transition: all 0.7s ease;
+                }
+                .fa-linkedin:hover{
+                    color: #2196f3;
+                }
+                .fa-github:hover{
+                    color: black;
+                }
+                .fa-instagram:hover{
+                    color: #9c27b0;
+                }
+            }
+        }
+    }
+    h1{
+        color: $seconed-color;
+    }
+}
+//-------------------------------------------------------------------------------------------------------------------------
+@include mobile{
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        gap: 1.5rem;
+        padding: 1rem;
+    }
+}

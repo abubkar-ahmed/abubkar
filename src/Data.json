@@ -1,0 +1,71 @@
+{
+    "projects": [
+        {
+            "id": 1 ,
+            "Name" : "Rock, Paper, Scissors game",
+            "image": "./images/1.png",
+            "Lan" : "HTML, SCSS, Vanila JS",
+            "url" : "https://abubkar-ahmed.github.io/rock-paper-scissors/"
+        },
+        {
+            "id": 2 ,
+            "Name" : "REST Countries API ",
+            "image": "./images/2.png",
+            "url" : "https://abubkar-ahmed.github.io/countries-chalinge/"
+        },
+        {
+            "id": 3 ,
+            "Name" : "Bookmark landing page",
+            "image": "./images/3.png",
+            "url" : "https://abubkar-ahmed.github.io/bookmark-landing-page/"
+        },
+        {
+            "id": 4 ,
+            "Name" : "Sunnyside agency landing page",
+            "image": "./images/4.png",
+            "url" : "https://abubkar-ahmed.github.io/sunnyside-agency-landing-page/"
+        },
+        {
+            "id": 5 ,
+            "Name" : "Todo app",
+            "image": "./images/5.png",
+            "url" : "https://abubkar-ahmed.github.io/Todo-App/"
+        },
+        {
+            "id": 6 ,
+            "Name" : "Advice generator app",
+            "image": "./images/6.png",
+            "url" : "https://abubkar-ahmed.github.io/Advice-generator-app/"
+        },
+        {
+            "id": 7 ,
+            "Name" : "E-commerce product page",
+            "image": "./images/7.png",
+            "url" : "https://abubkar-ahmed.github.io/Ecommerce-product-page/"
+        },
+        {
+            "id": 8 ,
+            "Name" : "Tip calculator app",
+            "image": "./images/8.png",
+            "url" : "https://abubkar-ahmed.github.io/Tip-Calculator/"
+        },
+        {
+            "id": 9 ,
+            "Name" : "Space tourism multi-page website",
+            "image": "./images/9.png",
+            "url" : "https://abubkar-ahmed.github.io/Space-Tourism-/"
+        },
+        {
+            "id": 10 ,
+            "Name" : "IP Address Tracker",
+            "image": "./images/10.png",
+            "url" : "https://abubkar-ahmed.github.io/Ip-tracker/"
+        },
+        {
+            "id": 11 ,
+            "Name" : "Easybank landing page",
+            "image": "./images/11.png",
+            "url" : "https://abubkar-ahmed.github.io/easybank-landing-page/"
+        }
+    ]
+}

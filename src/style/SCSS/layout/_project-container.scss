@@ -1,0 +1,51 @@
+.Projects {
+    width: 80%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    h1{
+        font-size: 1.7rem;
+        margin: 1rem 0;
+        color: $thered-color;
+        span{
+            color: $seconed-color;
+        }
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 48% 48%;
+        gap: 2.4rem;
+        align-items: center;
+        .project-container{
+            box-shadow: 5px 5px 20px 5px #00000059;
+            width: 100%;
+            height: 100%;
+            border-radius: 1rem;
+            padding: 2rem;
+            h2{
+                font-size: 1.3rem;
+                color: $forth-color;
+                margin-bottom: 1rem ;
+            }
+            img{
+                width: 100%;
+                margin-bottom: 1rem;
+            }
+            a{
+                text-decoration: none;
+                padding: 0.5rem;
+                border-bottom: 1px solid $seconed-color;
+                color: $seconed-color;
+                font-size: 1rem;
+            }
+        }
+    }
+}
+//--------------------------------------------------------------------------------------------------------------------
+@include mobile {
+    .Projects{
+        width: 100%;
+        .container{
+            grid-template-columns: 100%;
+        }
+    }
+}
