@@ -5,7 +5,7 @@
             "Name" : "Rock, Paper, Scissors game",
             "image": "./images/1.png",
             "Lan" : "HTML, SCSS, Vanila JS",
-            "url" : "https://abubkar-ahmed.github.io/rock-paper-scissors/"
+            "url" : "https://abubkar-ahmed.github.io/rock-paper-scissors-react/"
         },
         {
             "id": 2 ,
@@ -53,7 +53,7 @@
             "id": 9 ,
             "Name" : "Space tourism multi-page website",
             "image": "./images/9.png",
-            "url" : "https://abubkar-ahmed.github.io/Space-Tourism-/"
+            "url" : "https://abubkar-ahmed.github.io/space-tourism/"
         },
         {
             "id": 10 ,
@@ -66,6 +66,12 @@
             "Name" : "Easybank landing page",
             "image": "./images/11.png",
             "url" : "https://abubkar-ahmed.github.io/easybank-landing-page/"
+        },
+        {
+            "id": 12 ,
+            "Name" : "Room homepage",
+            "image": "./images/12.png",
+            "url" : "https://abubkar-ahmed.github.io/room-homepage/"
         }
     ]
 }
