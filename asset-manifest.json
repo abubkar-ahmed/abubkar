@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/abubkar/static/css/main.028b4d19.css",
-    "main.js": "/abubkar/static/js/main.558b89c8.js",
-    "static/media/Abubkar.pdf": "/abubkar/static/media/Abubkar.9f4b8b1756af92ab9954.pdf",
+    "main.css": "/abubkar/static/css/main.8fbb97bb.css",
+    "main.js": "/abubkar/static/js/main.704aaf4c.js",
+    "static/media/Abubkar.pdf": "/abubkar/static/media/Abubkar.34a37a38ec6af7ad28b5.pdf",
     "index.html": "/abubkar/index.html",
-    "main.028b4d19.css.map": "/abubkar/static/css/main.028b4d19.css.map",
-    "main.558b89c8.js.map": "/abubkar/static/js/main.558b89c8.js.map"
+    "main.8fbb97bb.css.map": "/abubkar/static/css/main.8fbb97bb.css.map",
+    "main.704aaf4c.js.map": "/abubkar/static/js/main.704aaf4c.js.map"
   },
   "entrypoints": [
-    "static/css/main.028b4d19.css",
-    "static/js/main.558b89c8.js"
+    "static/css/main.8fbb97bb.css",
+    "static/js/main.704aaf4c.js"
   ]
 }
