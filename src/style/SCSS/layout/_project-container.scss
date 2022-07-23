@@ -15,6 +15,10 @@
         grid-template-columns: 48% 48%;
         gap: 2.4rem;
         align-items: center;
+        a{
+            text-decoration: none;
+            color: $forth-color;
+        }
         .project-container{
             box-shadow: 5px 5px 20px 5px #00000059;
             width: 100%;

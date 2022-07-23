@@ -9,12 +9,13 @@ import Footer from "./components/Footer";
 function App() {
   const project = Data.projects.map(proj => {
     return (
-      <div className="project-container" key={proj.id}>
+      <a href={proj.url} target='_blank' rel='noopner noreferrer'>
+        <div className="project-container" key={proj.id}>
           <h2>{proj.Name}</h2>
           <img src={proj.image} alt={proj.Name}></img>
           <a href={proj.url} target='_blank' rel='noopner noreferrer'>Visit Site &rarr;</a>
-      
-      </div>
+        </div>
+      </a>
     ) ;
   })
   
